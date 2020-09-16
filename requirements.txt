@@ -1,0 +1,4 @@
+numpy # tested on 1.19.2
+pandas # tested on 1.1.2
+pandas-profiling[notebook] #tested on 2.9.0
+voila<=0.1.23 # tested on 0.1.23
