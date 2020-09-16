@@ -17,7 +17,9 @@ voila<=0.1.23 # tested on 0.1.23
 
 1. Open jupyter on mybinder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yasirroni/binder-profiling/master?filepath=%2Fbinder-profiling.ipynb)
 
-2. `Kernel -> Restart & Run All`
+2. On navigation: `Kernel -> Restart & Run All -> Restart and Run All Cells`
+
+3. Click on `Upload` below the last cell and upload your file
 
 <!---
 Voila profiling ended up not showing
