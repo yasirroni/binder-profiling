@@ -1,6 +1,6 @@
 # binder-profiling
 
-Profiling your data using Pandas Profiling
+Website implementation of Pandas Profiling to help you understand your data using binder cloud services.
 
 ## Requirements
 
@@ -42,3 +42,8 @@ Profiling using colab stopped at middle
 ```
 
 3. `Runtime -> Run all`
+-->
+
+## Note
+
+Only accept `.csv` format with `,` as delimiter and `.` as decimal separator. To make sure, open your `.csv` file in notepad. If your `.csv` file use `;` as delimiter and `,` as decimal separator, you can use google spreadsheet to convert it or change your windows language settings.
