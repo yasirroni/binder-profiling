@@ -11,16 +11,32 @@ pandas-profiling[notebook] #tested on 2.9.0
 voila<=0.1.23 # tested on 0.1.23
 ```
 
-## Run on cloud
+## Usage
 
-Run jupyter on mybinder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yasirroni/binder-profiling/master?urlpath=%2Fbinder-profiling.ipynb)
+### jupyter on mybinder
+
+1. Open jupyter on mybinder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yasirroni/binder-profiling/master?filepath=%2Fbinder-profiling.ipynb)
+
+2. `Kernel -> Restart & Run All`
 
 <!---
 Voila profiling ended up not showing
 -->
-
 <!---
-Run voila on mybinder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yasirroni/binder-profiling/master?urlpath=%2Fvoila%2Frender%2Fbinder-profiling.ipynb)
+### voila on mybinder
+1. Open voila on mybinder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yasirroni/binder-profiling/master?urlpath=%2Fvoila%2Frender%2Fbinder-profiling.ipynb)
 -->
 
-Run jupyter on colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasirroni/binder-profiling/blob/master/binder-profiling.ipynb)
+<!---
+Profiling using colab stopped at middle
+-->
+<!---
+### jupyter on colab
+1. Open jupyter on colab*: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasirroni/binder-profiling/blob/master/binder-profiling.ipynb)
+
+2. Add the following code before the first cell:
+```bash
+!pip install -U pandas-profiling[notebook]
+```
+
+3. `Runtime -> Run all`
