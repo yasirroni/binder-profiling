@@ -1,6 +1,6 @@
 # binder-profiling
 
-Website implementation of Pandas Profiling to help you understand your data using binder cloud services.
+Website implementation of [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling) to help you understand your data using [MyBinder](https://mybinder.org/) cloud services.
 
 ## Requirements
 
