@@ -35,13 +35,13 @@ Voila profiling ended up not showing
 
 1. Open jupyter on colab*: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasirroni/binder-profiling/blob/master/colab-profiling.ipynb)
 
-2. `Runtime -> Run all`
+2. `shift + enter` from first cell until `display(wrapper)` cell
 
 3. Click on `Upload` below the `display(wrapper)` cell and upload your file
 
-4. type `c` in the `text-box` below the  `Pdb().set_trace()` cell
+4. `shift + enter` all cell below the `display(wrapper)` cell
 
-5. Repeat poin (3) and `shift + enter` all cell below `Pdb().set_trace()` cell to process new file
+5. Repeat poin (3) and (4) to process new file
 
 ## Note
 
