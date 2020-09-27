@@ -41,7 +41,7 @@ Voila profiling ended up not showing
 
 4. type `c` in the `text-box` below the  `Pdb().set_trace()` cell
 
-5. Repeat poin (3) and `shift + enter` all cell below `Pdb().set_trace()` cell
+5. Repeat poin (3) and `shift + enter` all cell below `Pdb().set_trace()` cell to process new file
 
 ## Note
 
