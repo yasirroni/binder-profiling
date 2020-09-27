@@ -1,6 +1,6 @@
 # binder-profiling
 
-Website implementation of [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling) to help you understand your data using [MyBinder](https://mybinder.org/) cloud services.
+Website implementation of [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling) to help you understand your data using [MyBinder](https://mybinder.org/) cloud services. Also available on [Google Colab](https://colab.research.google.com/).
 
 ## Requirements
 
@@ -8,7 +8,7 @@ Website implementation of [Pandas Profiling](https://github.com/pandas-profiling
 numpy # tested on 1.19.2
 pandas # tested on 1.1.2
 pandas-profiling[notebook] #tested on 2.9.0
-voila<=0.1.23 # tested on 0.1.23
+voila<=0.1.23 # tested on 0.1.23 (buggy)
 ```
 
 ## Usage
@@ -29,20 +29,11 @@ Voila profiling ended up not showing
 1. Open voila on mybinder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yasirroni/binder-profiling/master?urlpath=%2Fvoila%2Frender%2Fbinder-profiling.ipynb)
 -->
 
-<!---
-Profiling using colab stopped at middle
--->
-<!---
 ### jupyter on colab
-1. Open jupyter on colab*: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasirroni/binder-profiling/blob/master/binder-profiling.ipynb)
 
-2. Add the following code before the first cell:
-```bash
-!pip install -U pandas-profiling[notebook]
-```
+1. Open jupyter on colab*: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasirroni/binder-profiling/blob/master/colab-profiling.ipynb)
 
-3. `Runtime -> Run all`
--->
+2. `Runtime -> Run all`
 
 ## Note
 
