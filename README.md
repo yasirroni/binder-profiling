@@ -19,9 +19,15 @@ voila<=0.1.23 # tested on 0.1.23 (buggy)
 
 2. On navigation: `Kernel -> Restart & Run All -> Restart and Run All Cells`
 
-3. Click on `Upload` below the last cell and upload your file
+3. Click on `Upload` below the `display(wrapper)` cell and upload your file
 
-4. Repeat poin (3) to process new file
+4. Click on `show` to show profiling result*
+
+5. Click on `.json` or `.html` to export
+
+6. Repeat poin (3) to process new file
+
+*it's recommended to download in `.html` and open in new tab, compared to `show` profiling result in notebook cell directly, especially for large file to avoid crashing
 
 <!---
 Voila profiling ended up not showing
@@ -42,6 +48,8 @@ Voila profiling ended up not showing
 4. `shift + enter` all cell below the `display(wrapper)` cell
 
 5. Repeat poin (3) and (4) to process new file
+
+*no threading support, run each cell manually
 
 ## Note
 
