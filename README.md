@@ -23,11 +23,11 @@ voila<=0.1.23 # tested on 0.1.23 (buggy)
 
 4. Click on `show` to show profiling result*
 
-5. Click on `.json` or `.html` to export
+5. Click on `.json` or `.html` to export (generate link to new tab)
 
 6. Repeat poin (3) to process new file
 
-*it's recommended to download in `.html` and open in new tab, compared to `show` profiling result in notebook cell directly, especially for large file to avoid crashing
+*it's more recommended to use the `.html` link (use export option), compared to `show` profiling result in notebook cell directly, especially for large file to avoid crashing.
 
 <!---
 Voila profiling ended up not showing
